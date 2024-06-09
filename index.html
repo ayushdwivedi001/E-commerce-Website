@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redstore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="images/images.png">
+
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Give Your Workout <br> A New Style!</h1>
+                <p>Success isn't always about greatness. It's about consistency. Consistent <br> hard work gains success. Greatness will come.</p>
+                <a href="" class="btn">Explore Now &#8594</a>
+            </div>
+            <div class="col-2">
+                <img src="images/image1.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----featured categories---- -->
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="images/category-1.jpg" >
+            </div>
+            <div class="col-3">
+                <img src="images/category-2.jpg" >
+            </div>
+            <div class="col-3">
+                <img src="images/category-3.jpg" >
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----featured products---- ⭐-->
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-1.jpg">
+            <h4>Red Printed PUMA T-Shirt</h4>
+            <div class="rating">
+                <p>  ★ ★ ★ ★ ☆ </p>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-2.jpg">
+            <h4>HRX Black & White Coloured Shoes</h4>
+            <div class="rating">
+                <p> ★ ★ ★ ★ ★ </p>
+            </div>
+            <p>$450.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-3.jpg">
+            <h4>Black Colour Track-Pants</h4>
+            <div class="rating">
+                <p>  ★ ★ ★ ★ ☆ </p>
+            </div>
+            <p>$90.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-4.jpg">
+            <h4>Navy Blue PUMA Cotton T-Shirt</h4>
+            <div class="rating">
+                <p>  ★ ★ ★ ★ ☆ </p>
+            </div>
+            <p>$76.00</p>
+        </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-5.jpg">
+            <h4>Grey & White Shoes</h4>
+            <div class="rating">
+                <p>  ★ ★ ★ ★ ☆ </p>
+            </div>
+            <p>$99.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-6.jpg">
+            <h4>PUMA Black T-Shirt</h4>
+            <div class="rating">
+                <p>★ ★ ★ ☆ ☆ </p>
+            </div>
+            <p>$45.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-7.jpg">
+            <h4>HRX Socks (Three in pair)</h4>
+            <div class="rating">
+                <p>  ★ ★ ★ ★ ☆ </p>
+            </div>
+            <p>$90.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-8.jpg">
+            <h4>Fossil Black Polished Stylish Watch</h4>
+            <div class="rating">
+                <p>  ★ ★ ★ ★ ☆ </p>
+            </div>
+            <p>$250.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-9.jpg">
+            <h4>Black Leather Roadster Watch</h4>
+            <div class="rating">
+                <p>  ★ ★ ★ ★ ☆ </p>
+            </div>
+            <p>$500.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-10.jpg">
+            <h4>HRX Black & Red Coloured Shoes</h4>
+            <div class="rating">
+                <p> ★ ★ ★ ★ ★ </p>
+            </div>
+            <p>$490.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-11.jpg">
+            <h4>Grey Comfortable Shoes</h4>
+            <div class="rating">
+                <p>  ★ ★ ★ ★ ☆ </p>
+            </div>
+            <p>$67.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-12.jpg">
+            <h4>Nike Trouser Black</h4>
+            <div class="rating">
+                <p>  ★ ★ ★ ★ ☆ </p>
+            </div>
+            <p>$239.00</p>
+        </div>
+    </div>
+</div>
+
+<!-- ----offer---- -->
+<div class="offer">
+    <div class="small-container">
+    <div class="row">
+        <div class="col-2">
+            <img src="images/exclusive.png" class="offer-img">
+        </div>
+        <div class="col-2">
+            <p>Exclusively Available on RedStore</p>
+            <h1>Smart Band 4</h1>
+            <small>The Mi Smart Band 4 features a 39.9% larger ( than Mi Band 3) AMOLED color full-touch display with adjustable brightness, so everything is clear as can be.</small> <br>
+            <a href="" class="btn">Buy Now &#8594</a>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- testimonial -->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <p style="margin-left: 60px;">"Lorem ipsum is simply dummy text of<br>the printing and typesetting industry.<br>lorem ipsum has been the industry's <br>standard dummy text ever"</p>
+                <div class="rating">
+                    <p style="margin-left: 60px;">  ★ ★ ★ ★ ☆ </p>
+                </div>
+                <img src="images/user-1.png" style=" margin-left:60px;">
+                <h3 style="margin-left: 60px;">Sean Parker</h3>      
+            </div>
+            <div class="col-3">
+                <p style="margin-left: 50px;">"Lorem ipsum is simply dummy text of<br>the printing and typesetting industry.<br>lorem ipsum has been the industry's <br>standard dummy text ever"</p>
+                <div class="rating">
+                    <p style="margin-left: 50px;">  ★ ★ ★ ★ ☆ </p>
+                </div>
+                <img src="images/user-2.png" style=" margin-left: 50px;">
+                <h3 style="margin-left: 50px;">Mike Smith</h3>
+            </div>
+            <div class="col-3">
+                <p style="margin-left: 40px;">"Lorem ipsum is simply dummy text of<br>the printing and typesetting industry.<br>lorem ipsum has been the industry's <br>standard dummy text ever"</p>
+                <div class="rating">
+                    <p style="margin-left: 40px;">  ★ ★ ★ ★ ☆ </p>
+                </div>
+                <img src="images/user-3.png" style=" margin-left: 40px;">
+                <h3 style="margin-left: 40px;">Mobel Joe</h3>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Brands -->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <a href="https://www.godrej.com/" target="_main"><img src="images/logo-godrej.png"></a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjl3Muk5_uFAxU3I3sHHUQ6DhoYABAAGgJ0bQ&ase=2&gclid=CjwKCAjwouexBhAuEiwAtW_Zx_FB-TGHbu2A18mMRbWVsE44BnH6eTgIzlNaTXObyEJLCrEUX6crxxoCDroQAvD_BwE&ohost=www.google.com&cid=CAESVuD2O8DkLwio3ER6seFSDSa8ZA2Ka4qIV66vDk8p-hgEarMbcgur7PtcvbNQ7Crv6cNcw3QnXFmRrW0h9FYrwCaaxM_z85dpMBeC6dRDhupqVc5yoUIR&sig=AOD64_1qnDQLKiWyhpQfn4tnuLHtpcxAEQ&q&nis=4&adurl&ved=2ahUKEwiU88Ok5_uFAxXnb_UHHTpSBMUQ0Qx6BAgQEAE"><img src="images/logo-oppo.png"> </a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.coca-colacompany.com/"><img src="images/logo-coca-cola.png"></a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.paypal.com/"><img src="images/logo-paypal.png"></a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.philips.co.in/"><img src="images/logo-philips.png"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----footer---- -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <a href="https://play.google.com/store/apps?hl=en_IN&gl=US"><img src="images/play-store.png"> </a>
+                    <a href="https://www.apple.com/in/app-store/"><img src="images/app-store.png"></a>
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <a href="index.html"><img src="images/logo-white.png" ></a>
+                <p>Our Purpose is to sustainable make the pleasure and benefits of Sports Accesible to the Many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <a href="https://www.coupondunia.in/"><li>Coupons</li></a>
+                    <a href="https://www.forbesindia.com/blog/"><li>Blog Post</li></a>
+                    <a href="https://termly.io/resources/guides/how-to-write-a-return-policy/#:~:text=Your%20Return%20Policy-,What%20Is%20a%20Return%20Policy%3F,refunds%2C%20exchanges%2C%20or%20store%20credit"><li>Return Policy</li> </a>
+                    <a href="https://join.com/affiliate-program"><li>Join Affiliate</li> </a>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <a href="https://www.facebook.com/"><li>Facebook</li> </a>
+                    <a href="https://twitter.com/?lang=en"><li>Twitter</li> </a>
+                    <a href="https://www.instagram.com/"><li>Instagram</li></a>
+                    <a href="https://www.youtube.com/"><li>Youtube</li> </a>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">© 2024 RedStore By <a href="https://www.linkedin.com/in/ayush-dwivedi-28a6992a6/" target="_main" style="color:#bebdbd;">Ayush Dwivedi</a> | All Rights Reserved |</p>
+    </div>
+</div>
+<!-- ------ js for toggle menu ----- -->
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px"
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+
+</body>
+</html>
